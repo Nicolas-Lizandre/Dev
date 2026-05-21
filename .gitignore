@@ -1,0 +1,36 @@
+# Build artifacts
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+build/
+Debug/
+Release/
+
+# IDE files (exclude these if they're sensitive)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# STM32CubeMX generated backup/temporary files
+*.ioc.backup
+*.cubemx
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Sensitive or confidential files
+secrets/
+credentials/
+private_keys/
+*.key
+*.pem
+
+# Large or vendor files you don't want tracked
+vendor/
+lib/stm32_proprietary/
