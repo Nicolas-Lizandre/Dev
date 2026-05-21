@@ -1,0 +1,5 @@
+../Core/Src/LED.c:16:6:LED_Set_Value_With_Int	2
+../Core/Src/LED.c:21:6:LED_Set_Value_With_Array	2
+../Core/Src/LED.c:26:5:LED_Get_Value	2
+../Core/Src/LED.c:33:6:LED_Update	2
+../Core/Src/LED.c:40:6:LED_Test_All	1
