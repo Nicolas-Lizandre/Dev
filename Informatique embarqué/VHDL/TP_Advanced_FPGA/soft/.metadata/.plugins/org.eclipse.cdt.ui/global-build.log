@@ -1,0 +1,723 @@
+10:33:24 Buildscript generation: bsp::Default in C:\Users\nicol\OneDrive\Bureau\ENSEA\Informatique\TP_Advanced_FPGA\soft\bsp\build\Default
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -G "Unix Makefiles" "C:\\Users\\nicol\\OneDrive\\Bureau\\ENSEA\\Informatique\\TP_Advanced_FPGA\\soft\\bsp" 
+-- Defaulting build type to Debug.
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/bin/riscv32-unknown-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/bin/riscv32-unknown-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/bin/riscv32-unknown-elf-gcc.exe
+-- Configuring done (4.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/build/Default
+10:33:29 Buildscript generation finished (took 4569 ms)
+10:33:29 **** Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[  2%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/alt_log_macro.S.obj
+[  2%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/alt_ecc_exception_entry.S.obj
+[  3%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/crt0.S.obj
+[  5%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/alt_vic_vector_table.S.obj
+[  5%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/alt_mcount.S.obj
+[  7%] Building ASM object CMakeFiles/hal2_bsp.dir/HAL/src/machine_trap.S.obj
+[  8%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_alarm_start.c.obj
+[  8%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_busy_sleep.c.obj
+[  9%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_close.c.obj
+[ 10%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dcache_flush_all.c.obj
+[ 11%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dcache_flush.c.obj
+[ 12%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dcache_flush_no_writeback.c.obj
+[ 13%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dma_rxchan_open.c.obj
+[ 15%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dev.c.obj
+[ 16%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dev_llist_insert.c.obj
+[ 17%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_do_ctors.c.obj
+[ 18%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_ecc_error_inject.c.obj
+[ 19%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_do_dtors.c.obj
+[ 20%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_dma_txchan_open.c.obj
+[ 21%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_ecc_exception.c.obj
+[ 22%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_env_lock.c.obj
+[ 23%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_errno.c.obj
+[ 24%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_execve.c.obj
+[ 26%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_exit.c.obj
+[ 26%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_environ.c.obj
+[ 27%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fcntl.c.obj
+[ 29%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fd_lock.c.obj
+[ 30%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fd_unlock.c.obj
+[ 31%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_find_dev.c.obj
+[ 32%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_find_file.c.obj
+[ 33%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fs_reg.c.obj
+[ 34%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_flash_dev.c.obj
+[ 35%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fork.c.obj
+[ 36%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_fstat.c.obj
+[ 37%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_get_fd.c.obj
+[ 38%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_gettod.c.obj
+[ 39%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_getchar.c.obj
+[ 40%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_getpid.c.obj
+[ 41%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_icache_flush_all.c.obj
+[ 43%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_icache_flush.c.obj
+[ 44%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_gmon.c.obj
+[ 45%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_instruction_exception_register.c.obj
+[ 46%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_iic_isr_register.c.obj
+[ 47%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_iic.c.obj
+[ 48%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_io_redirect.c.obj
+[ 49%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_ioctl.c.obj
+[ 50%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_irq_handler.c.obj
+[ 51%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_log_printf.c.obj
+[ 52%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_isatty.c.obj
+[ 53%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_kill.c.obj
+[ 54%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_link.c.obj
+[ 55%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_main.c.obj
+[ 56%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_malloc_lock.c.obj
+[ 59%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_read.c.obj
+[ 59%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_lseek.c.obj
+[ 60%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_printf.c.obj
+[ 61%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_open.c.obj
+[ 62%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_putchar.c.obj
+[ 63%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_load.c.obj
+[ 64%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_putstr.c.obj
+[ 65%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_putcharbuf.c.obj
+[ 66%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_remap_uncached.c.obj
+[ 67%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_tick.c.obj
+[ 68%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_release_fd.c.obj
+[ 72%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_sbrk.c.obj
+[ 72%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_rename.c.obj
+[ 73%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_uncached_free.c.obj
+[ 75%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_stat.c.obj
+[ 75%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_settod.c.obj
+[ 69%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_remap_cached.c.obj
+[ 76%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_tls.c.obj
+[ 77%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_vic_isr_wrapper.c.obj
+[ 78%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_usleep.c.obj
+[ 79%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_uncached_malloc.c.obj
+[ 80%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_unlink.c.obj
+[ 81%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_times.c.obj
+[ 82%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_api_cmn_inf.c.obj
+[ 83%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_wait.c.obj
+[ 84%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_api_cmn_msg.c.obj
+[ 86%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_api_niosv.c.obj
+[ 87%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_api_cmn_dfl.c.obj
+[ 88%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_niosv_irq.c.obj
+[ 89%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/alt_write.c.obj
+[ 90%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/mtimer.c.obj
+[ 91%] Building C object CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_platform_api_niosv.c.obj
+[ 92%] Building C object CMakeFiles/hal2_bsp.dir/alt_sys_init.c.obj
+[ 93%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_fd.c.obj
+[ 94%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_i2c.c.obj
+[ 95%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_write.c.obj
+[ 97%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_init.c.obj
+[ 97%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_ioctl.c.obj
+[ 98%] Building C object CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_read.c.obj
+[100%] Linking C static library libhal2_bsp.a
+[100%] Built target hal2_bsp
+10:43:23 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 104.74 KB - Program size (code + initialized data).
+ * 16.97 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+10:43:26 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+10:48:48 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:11:11: error: 'true' undeclared (first use in this function)
+   11 |     while(true){
+      |           ^~~~
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:7:1: note: 'true' is defined in header '<stdbool.h>'; did you forget to '#include <stdbool.h>'?
+    6 | #include "altera_avalon_pio_regs.h"
+  +++ |+#include <stdbool.h>
+    7 | 
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:11:11: note: each undeclared identifier is reported only once for each function it appears in
+   11 |     while(true){
+      |           ^~~~
+make[2]: *** [CMakeFiles/app.elf.dir/build.make:79: CMakeFiles/app.elf.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:118: CMakeFiles/app.elf.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+"C:/intelFPGA_lite/24.1std/riscfree/build_tools/bin/make.exe -j all" terminated with exit code 2. Build might be incomplete.
+10:48:49 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+10:49:09 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 98%] Creating app.elf.objdump.
+[ 98%] Creating onchip_memory2_0.hex.
+[100%] Reporting memory available for stack + heap in app.elf.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.10 KB - Program size (code + initialized data).
+ * 81.97 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+10:49:11 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+10:50:55 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.11 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+10:50:57 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+10:53:19 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[100%] Built target create-hex
+[100%] Built target create-objdump
+app.elf
+ * 40.11 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+10:53:29 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+10:55:11 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.12 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+10:55:13 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:00:45 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[ 98%] Creating app.elf.objdump.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.12 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:00:47 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:03:17 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.12 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:03:19 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:03:57 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[ 98%] Creating app.elf.objdump.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.12 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:03:59 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:04:30 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.12 KB - Program size (code + initialized data).
+ * 81.96 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:04:33 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:19:41 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:3:10: fatal error: sdtint.h: No such file or directory
+    3 | #include <sdtint.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/app.elf.dir/build.make:79: CMakeFiles/app.elf.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:118: CMakeFiles/app.elf.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+"C:/intelFPGA_lite/24.1std/riscfree/build_tools/bin/make.exe -j all" terminated with exit code 2. Build might be incomplete.
+11:19:42 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:20:29 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:3:10: fatal error: sdtint.h: No such file or directory
+    3 | #include <sdtint.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/app.elf.dir/build.make:79: CMakeFiles/app.elf.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:118: CMakeFiles/app.elf.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+"C:/intelFPGA_lite/24.1std/riscfree/build_tools/bin/make.exe -j all" terminated with exit code 2. Build might be incomplete.
+11:20:30 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:20:40 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:3:10: fatal error: sdtint.h: No such file or directory
+    3 | #include <sdtint.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/app.elf.dir/build.make:79: CMakeFiles/app.elf.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:118: CMakeFiles/app.elf.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+"C:/intelFPGA_lite/24.1std/riscfree/build_tools/bin/make.exe -j all" terminated with exit code 2. Build might be incomplete.
+11:20:41 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:21:09 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:34:36: warning: unused variable 'status' [-Wunused-variable]
+   34 |         ALT_AVALON_I2C_STATUS_CODE status = alt_avalon_i2c_master_tx_rx(
+      |                                    ^~~~~~
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:28:19: warning: unused variable 'z' [-Wunused-variable]
+   28 |     int16_t x, y, z;
+      |                   ^
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:28:16: warning: unused variable 'y' [-Wunused-variable]
+   28 |     int16_t x, y, z;
+      |                ^
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[ 98%] Creating app.elf.objdump.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.33 KB - Program size (code + initialized data).
+ * 81.74 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:21:11 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:24:12 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:34:36: warning: unused variable 'status' [-Wunused-variable]
+   34 |         ALT_AVALON_I2C_STATUS_CODE status = alt_avalon_i2c_master_tx_rx(
+      |                                    ^~~~~~
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.33 KB - Program size (code + initialized data).
+ * 81.74 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:24:14 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:31:44 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:34:36: warning: unused variable 'status' [-Wunused-variable]
+   34 |         ALT_AVALON_I2C_STATUS_CODE status = alt_avalon_i2c_master_tx_rx(
+      |                                    ^~~~~~
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 40.34 KB - Program size (code + initialized data).
+ * 81.74 KB - Free for stack + heap.
+[100%] Built target create-objdump
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+11:31:46 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:34:41 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d)\n", status);
+      |                                       ~^      ~~~~~~
+      |                                        |      |
+      |                                        int    ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.00 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:34:43 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:36:53 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d)\n", status);
+      |                                       ~^      ~~~~~~
+      |                                        |      |
+      |                                        int    ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.01 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:36:55 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:45:45 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d)\n", status);
+      |                                       ~^      ~~~~~~
+      |                                        |      |
+      |                                        int    ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.00 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:45:48 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:48:26 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d)\n cause %d", status,rx_buf);
+      |                                       ~^               ~~~~~~
+      |                                        |               |
+      |                                        int             ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[100%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.01 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:48:29 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:49:17 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.01 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:49:19 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:51:37 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 98%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.01 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+11:51:39 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:52:19 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Reporting memory available for stack + heap in app.elf.
+[ 98%] Creating app.elf.objdump.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.02 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-objdump
+[100%] Built target create-hex
+11:52:22 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+11:52:39 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 96%] Built target app.elf
+[ 97%] Built target create-objdump
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Built target create-hex
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.02 KB - Program size (code + initialized data).
+ * 16.70 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+11:52:40 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+12:04:24 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:30:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   30 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:32:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   32 |         printf("Hum?? (Code: %d) cause %d \n", status,rx_buf);
+      |                              ~^                ~~~~~~
+      |                               |                |
+      |                               int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                              %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.07 KB - Program size (code + initialized data).
+ * 16.64 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+12:04:26 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+12:05:43 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:32:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   32 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:34:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   34 |         printf("Hum?? (Code: %d) cause %d \n", status,rx_buf);
+      |                              ~^                ~~~~~~
+      |                               |                |
+      |                               int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                              %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.11 KB - Program size (code + initialized data).
+ * 16.61 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+12:05:46 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+12:06:48 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:33:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   33 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:35:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   35 |         printf("Hum?? (Code: %d) cause %d \n", status,rx_buf);
+      |                              ~^                ~~~~~~
+      |                               |                |
+      |                               int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                              %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.11 KB - Program size (code + initialized data).
+ * 16.61 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+12:06:50 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp

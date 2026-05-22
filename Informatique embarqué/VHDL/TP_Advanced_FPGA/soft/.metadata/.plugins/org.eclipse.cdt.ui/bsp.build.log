@@ -1,0 +1,6 @@
+12:06:50 **** Incremental Build of configuration Default for project bsp ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[100%] Built target hal2_bsp
+
+12:06:51 Build Finished. 0 errors, 0 warnings. (took 458ms)
+

@@ -1,0 +1,32 @@
+12:06:48 **** Incremental Build of configuration Default for project app ****
+"C:\\intelFPGA_lite\\24.1std\\riscfree\\build_tools\\bin\\make.exe" -j all 
+[ 94%] Built target hal2_bsp
+[ 95%] Building C object CMakeFiles/app.elf.dir/main.c.obj
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c: In function 'main':
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:33:40: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   33 |             printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+      |                                       ~^                ~~~~~~
+      |                                        |                |
+      |                                        int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                                       %ld
+C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/main.c:35:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ALT_AVALON_I2C_STATUS_CODE' {aka 'long unsigned int'} [-Wformat=]
+   35 |         printf("Hum?? (Code: %d) cause %d \n", status,rx_buf);
+      |                              ~^                ~~~~~~
+      |                               |                |
+      |                               int              ALT_AVALON_I2C_STATUS_CODE {aka long unsigned int}
+      |                              %ld
+[ 96%] Linking C executable app.elf
+[ 96%] Built target app.elf
+[ 97%] Creating app.elf.objdump.
+[ 98%] Reporting memory available for stack + heap in app.elf.
+[100%] Creating onchip_memory2_0.hex.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+app.elf
+ * 105.11 KB - Program size (code + initialized data).
+ * 16.61 KB - Free for stack + heap.
+[100%] Built target niosv-stack-report
+[100%] Built target create-hex
+[100%] Built target create-objdump
+
+12:06:50 Build Finished. 0 errors, 2 warnings. (took 2s.69ms)
+

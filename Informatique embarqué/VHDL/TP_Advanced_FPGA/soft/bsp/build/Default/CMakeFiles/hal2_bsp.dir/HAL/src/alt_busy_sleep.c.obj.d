@@ -1,0 +1,20 @@
+CMakeFiles/hal2_bsp.dir/HAL/src/alt_busy_sleep.c.obj: \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/src/alt_busy_sleep.c \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/limits.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/syslimits.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/limits.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/newlib.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/_newlib_version.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/cdefs.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/machine/_default_types.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/features.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ C:/intelFPGA_lite/24.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/syslimits.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/system.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/linker.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/alt_types.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/sys/alt_timestamp.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/intel_niosv.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/alt_types.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/io.h \
+ C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/bsp/HAL/inc/priv/alt_busy_sleep.h

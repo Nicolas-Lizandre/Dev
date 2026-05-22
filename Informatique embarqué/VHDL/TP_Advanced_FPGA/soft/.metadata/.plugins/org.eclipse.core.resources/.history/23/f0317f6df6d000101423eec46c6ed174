@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "altera_avalon_i2c.h"
+#include <unistd.h> // for usleep
+
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+
+int main() {
+    for (int i = 0; i < 4; ++i)
+    {
+        printf("Hello world, this is the Nios V/m cpu checking in %d...\n", i);
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_0_BASE, i);
+    }
+
+    printf("Bye world\n");
+    //IOWR_ALTERA_AVALON_PIO_DATA(PIO_0_BASE, 0xFF);
+
+    return 0;
+}

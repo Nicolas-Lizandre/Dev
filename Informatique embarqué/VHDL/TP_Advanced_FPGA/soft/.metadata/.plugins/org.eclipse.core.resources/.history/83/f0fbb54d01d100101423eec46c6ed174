@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "system.h"
+#include "altera_avalon_i2c.h"
+
+int main() {
+    printf("Test I2C...\n");
+
+    // 1. Ouverture du driver
+    ALT_AVALON_I2C_DEV_t *i2c_dev = alt_avalon_i2c_open(I2C_0_NAME);
+    if (!i2c_dev) {
+        printf("ERREUR: Impossible d'ouvrir le peripherique I2C.\n");
+        return 0;
+    }
+    printf("E333\n");
+
+    // 2. Configuration de l'adresse (Essayez 0x53, sinon 0x1D)
+    alt_avalon_i2c_master_target_set(i2c_dev, 0x00);
+
+    // 3. Lecture du registre DEVID (0x00)
+    uint8_t tx_buf = 0x00;
+    uint8_t rx_buf = 0x00;
+    ALT_AVALON_I2C_STATUS_CODE status;
+    printf("E444\n");
+
+    while(1) {
+        status = alt_avalon_i2c_master_tx_rx(i2c_dev, &tx_buf, 1, &rx_buf, 1, ALT_AVALON_I2C_NO_INTERRUPTS);
+
+        if (status == ALT_AVALON_I2C_SUCCESS) {
+            printf("Lecture OK. ID = 0x%02X (Attendu: 0xE5)\n", rx_buf);
+        } else {
+            printf("Erreur I2C (Code: %d) cause %d \n", status,rx_buf);
+        }
+        printf("Hum?? (Code: %d) cause %d \n", status,rx_buf);
+
+        usleep(1000000); // 1 seconde
+    }
+    return 0;
+}

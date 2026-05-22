@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\nicol\OneDrive\Bureau\ENSEA\Informatique\TP_Advanced_FPGA\synt\I2C.qsys --block-symbol-file --output-directory=C:\Users\nicol\OneDrive\Bureau\ENSEA\Informatique\TP_Advanced_FPGA\synt\I2C --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading synt/I2C.qsys
+Progress: Reading input file
+Progress: Adding i2cslave_to_avlmm_bridge_0 [altera_i2cslave_to_avlmm_bridge 24.1]
+Progress: Parameterizing module i2cslave_to_avlmm_bridge_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\nicol\OneDrive\Bureau\ENSEA\Informatique\TP_Advanced_FPGA\synt\I2C.qsys --synthesis=VHDL --output-directory=C:\Users\nicol\OneDrive\Bureau\ENSEA\Informatique\TP_Advanced_FPGA\synt\I2C\synthesis --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading synt/I2C.qsys
+Progress: Reading input file
+Progress: Adding i2cslave_to_avlmm_bridge_0 [altera_i2cslave_to_avlmm_bridge 24.1]
+Progress: Parameterizing module i2cslave_to_avlmm_bridge_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: I2C: Generating "I2C" for QUARTUS_SYNTH
+Info: i2cslave_to_avlmm_bridge_0: "I2C" instantiated altera_i2cslave_to_avlmm_bridge "i2cslave_to_avlmm_bridge_0"
+Info: I2C: Done "I2C" with 2 modules, 11 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
