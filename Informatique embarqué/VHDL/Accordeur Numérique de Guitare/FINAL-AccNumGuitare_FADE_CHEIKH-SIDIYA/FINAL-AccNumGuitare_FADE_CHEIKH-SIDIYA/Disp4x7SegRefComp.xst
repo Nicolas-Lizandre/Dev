@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn Disp4x7SegRefComp.prj
+-ifmt mixed

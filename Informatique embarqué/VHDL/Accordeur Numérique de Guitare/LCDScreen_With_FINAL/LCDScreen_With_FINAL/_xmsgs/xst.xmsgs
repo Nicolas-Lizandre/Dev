@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;8&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;9&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;10&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;11&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;12&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;13&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;14&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;15&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;16&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;17&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;18&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;19&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;20&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;21&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;22&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;23&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;24&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;25&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;26&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;27&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;28&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;29&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;30&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">data_to_be_send&lt;31&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Data_Converter</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">conv_nb_instructions</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">scl_prev_delay&lt;9&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="unknown" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_phase_instr_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_phase_instr_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_phase_instr_rom0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_init_index_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_init_index_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_init_index_rom0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_wait_between_trip_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_wait_between_trip_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_wait_between_trip_rom0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_ms200_cnt_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_ms200_cnt_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_state_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_state_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_startup_cnt_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_startup_cnt_rom0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_startup_cnt_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_ms4_cnt_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_instr_in_rom0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_ms4_cnt_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_instr_in_rom0001</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_instr_in_rom0002</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt; : In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="2">Mrom_instr_in_rom0003</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">scl_prev_delay_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Sending_data</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">scl_prev_delay_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Sending_data</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">EndProduct</arg>&gt;: instances &lt;<arg fmt="%s" index="2">XLXI_61</arg>&gt;, &lt;<arg fmt="%s" index="3">XLXI_62</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Diviseur</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">EndProduct</arg>&gt;: instances &lt;<arg fmt="%s" index="2">XLXI_61</arg>&gt;, &lt;<arg fmt="%s" index="3">XLXI_63</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Diviseur</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">EndProduct</arg>&gt;: instances &lt;<arg fmt="%s" index="2">XLXI_61</arg>&gt;, &lt;<arg fmt="%s" index="3">XLXI_64</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Diviseur</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">EndProduct</arg>&gt;: instances &lt;<arg fmt="%s" index="2">XLXI_61</arg>&gt;, &lt;<arg fmt="%s" index="3">XLXI_65</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Diviseur</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">EndProduct</arg>&gt;: instances &lt;<arg fmt="%s" index="2">XLXI_61</arg>&gt;, &lt;<arg fmt="%s" index="3">XLXI_67</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Diviseur</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="info" file="Xst" num="2146" delta="unknown" >In block &lt;<arg fmt="%s" index="1">Data_Sequenceur</arg>&gt;, <arg fmt="%s" index="2">ROM</arg> &lt;<arg fmt="%s" index="3">Mrom_phase_instr_rom0000</arg>&gt; </msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">instr_tasks_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Data_Converter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">instr_tasks_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Data_Converter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">XLXI_68/instr_prev_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EndProduct</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="unknown" >HDL ADVISOR - A <arg fmt="%d" index="1">5</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">XLXI_76/scl_prev_delay_4</arg>&gt; and currently occupies <arg fmt="%d" index="3">5</arg> logic cells (<arg fmt="%d" index="4">2</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">16</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+</messages>
+

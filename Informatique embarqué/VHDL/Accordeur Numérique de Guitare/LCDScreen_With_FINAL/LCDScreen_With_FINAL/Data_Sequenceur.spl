@@ -1,0 +1,11 @@
+[Inputs]
+clk
+reset
+list_data_full
+all_data_sent
+=instr_tasks[7:0]=
+[Outputs]
+list_data_full_forDC
+reset_request_to_top
+=instr_in[7:0]=
+[BiDir]

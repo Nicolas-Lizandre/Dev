@@ -1,0 +1,10 @@
+[Inputs]
+Init_Compt
+Valid_Compt
+SensCroiss
+FreqRef
+Clk
+[Outputs]
+Etat_0
+=Pourcent_to_output[3:0]=
+[BiDir]

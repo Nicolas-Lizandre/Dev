@@ -1,0 +1,660 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: EndProduct.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "EndProduct.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "EndProduct"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : EndProduct
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : EndProduct.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/EndProduct is now defined in a different file.  It was defined in "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhd", and is now defined in "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhf".
+WARNING:HDLParsers:3607 - Unit work/EndProduct/BEHAVIORAL is now defined in a different file.  It was defined in "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhd", and is now defined in "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhf".
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/ChoixNote.vhd" in Library work.
+Architecture behavioral of Entity choixnote is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Disp4x7SegRefComp.vhd" in Library work.
+Architecture behavioral of Entity disp4x7segrefcomp is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Sequenceur.vhd" in Library work.
+Architecture behavioral of Entity sequenceur is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_082Hz.vhd" in Library work.
+Architecture behavioral of Entity div_082hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_110Hz.vhd" in Library work.
+Architecture behavioral of Entity div_110hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_146Hz.vhd" in Library work.
+Architecture behavioral of Entity div_146hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_196Hz.vhd" in Library work.
+Architecture behavioral of Entity div_196hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_246Hz.vhd" in Library work.
+Architecture behavioral of Entity div_246hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_329Hz.vhd" in Library work.
+Architecture behavioral of Entity div_329hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/CompteurReversible.vhd" in Library work.
+Architecture behavioral of Entity compteurreversible is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Bus_Signe_AVEC_Pourcent.vhd" in Library work.
+Architecture behavioral of Entity bus_signe_avec_pourcent is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/RegistreParallele.vhd" in Library work.
+Architecture behavioral of Entity registreparallele is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Diviseur.vhd" in Library work.
+Architecture behavioral of Entity diviseur is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhf" in Library work.
+Architecture behavioral of Entity endproduct is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <EndProduct> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ChoixNote> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Disp4x7SegRefComp> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sequenceur> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_082Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_110Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_146Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_196Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_246Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_329Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CompteurReversible> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Bus_Signe_AVEC_Pourcent> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegistreParallele> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Diviseur> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <EndProduct> in library <work> (Architecture <behavioral>).
+Entity <EndProduct> analyzed. Unit <EndProduct> generated.
+
+Analyzing Entity <ChoixNote> in library <work> (Architecture <behavioral>).
+Entity <ChoixNote> analyzed. Unit <ChoixNote> generated.
+
+Analyzing Entity <Disp4x7SegRefComp> in library <work> (Architecture <behavioral>).
+Entity <Disp4x7SegRefComp> analyzed. Unit <Disp4x7SegRefComp> generated.
+
+Analyzing Entity <Sequenceur> in library <work> (Architecture <behavioral>).
+Entity <Sequenceur> analyzed. Unit <Sequenceur> generated.
+
+Analyzing Entity <Div_082Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_082Hz> analyzed. Unit <Div_082Hz> generated.
+
+Analyzing Entity <Div_110Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_110Hz> analyzed. Unit <Div_110Hz> generated.
+
+Analyzing Entity <Div_146Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_146Hz> analyzed. Unit <Div_146Hz> generated.
+
+Analyzing Entity <Div_196Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_196Hz> analyzed. Unit <Div_196Hz> generated.
+
+Analyzing Entity <Div_246Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_246Hz> analyzed. Unit <Div_246Hz> generated.
+
+Analyzing Entity <Div_329Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_329Hz> analyzed. Unit <Div_329Hz> generated.
+
+Analyzing Entity <CompteurReversible> in library <work> (Architecture <behavioral>).
+Entity <CompteurReversible> analyzed. Unit <CompteurReversible> generated.
+
+Analyzing Entity <Bus_Signe_AVEC_Pourcent> in library <work> (Architecture <behavioral>).
+Entity <Bus_Signe_AVEC_Pourcent> analyzed. Unit <Bus_Signe_AVEC_Pourcent> generated.
+
+Analyzing Entity <RegistreParallele> in library <work> (Architecture <behavioral>).
+Entity <RegistreParallele> analyzed. Unit <RegistreParallele> generated.
+
+Analyzing Entity <Diviseur> in library <work> (Architecture <behavioral>).
+Entity <Diviseur> analyzed. Unit <Diviseur> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ChoixNote>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/ChoixNote.vhd".
+    Found 4-bit register for signal <Pourcentage>.
+    Found 3-bit register for signal <Note>.
+    Found 1-bit register for signal <Bad_ftment>.
+    Found 1-bit register for signal <Signe>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <ChoixNote> synthesized.
+
+
+Synthesizing Unit <Disp4x7SegRefComp>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Disp4x7SegRefComp.vhd".
+    Found 16x7-bit ROM for signal <Cathodes$rom0000> created at line 104.
+    Found 1-of-4 decoder for signal <Anodes>.
+    Found 4-bit 4-to-1 multiplexer for signal <Adressage>.
+    Found 18-bit up counter for signal <Comptage>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <Disp4x7SegRefComp> synthesized.
+
+
+Synthesizing Unit <Sequenceur>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Sequenceur.vhd".
+    Found finite state machine <FSM_0> for signal <CURRENT_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Power Up State     | no_mesure                                      |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Sequenceur> synthesized.
+
+
+Synthesizing Unit <Div_082Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_082Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_082Hz> synthesized.
+
+
+Synthesizing Unit <Div_110Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_110Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_110Hz> synthesized.
+
+
+Synthesizing Unit <Div_146Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_146Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_146Hz> synthesized.
+
+
+Synthesizing Unit <Div_196Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_196Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_196Hz> synthesized.
+
+
+Synthesizing Unit <Div_246Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_246Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_246Hz> synthesized.
+
+
+Synthesizing Unit <Div_329Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Div_329Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_329Hz> synthesized.
+
+
+Synthesizing Unit <CompteurReversible>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/CompteurReversible.vhd".
+    Found 1-bit register for signal <Etat_0>.
+    Found 31-bit updown counter for signal <compteur>.
+    Found 31-bit comparator lessequal for signal <Pourcent_to_output$cmp_le0000> created at line 75.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CompteurReversible> synthesized.
+
+
+Synthesizing Unit <Bus_Signe_AVEC_Pourcent>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Bus_Signe_AVEC_Pourcent.vhd".
+Unit <Bus_Signe_AVEC_Pourcent> synthesized.
+
+
+Synthesizing Unit <RegistreParallele>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/RegistreParallele.vhd".
+    Found 4-bit register for signal <Pourcent_in_use>.
+    Found 1-bit register for signal <Sign_output>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <RegistreParallele> synthesized.
+
+
+Synthesizing Unit <Diviseur>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/Diviseur.vhd".
+    Found 31-bit up counter for signal <compteur>.
+    Found 31-bit comparator lessequal for signal <compteur$cmp_le0000> created at line 52.
+    Found 1-bit xor2 for signal <compteur$xor0000> created at line 53.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Qavant>.
+    Found 31-bit comparator greater for signal <Qavant$cmp_gt0000> created at line 52.
+    Found 31-bit comparator less for signal <TVar100$cmp_lt0000> created at line 62.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <Diviseur> synthesized.
+
+
+Synthesizing Unit <EndProduct>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.vhf".
+Unit <EndProduct> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 19
+ 18-bit up counter                                     : 1
+ 31-bit up counter                                     : 12
+ 31-bit updown counter                                 : 6
+# Registers                                            : 40
+ 1-bit register                                        : 32
+ 3-bit register                                        : 1
+ 4-bit register                                        : 7
+# Comparators                                          : 24
+ 31-bit comparator greater                             : 6
+ 31-bit comparator less                                : 6
+ 31-bit comparator lessequal                           : 12
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_21/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_22/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_23/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_24/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_25/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_26/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+-----------------------------------------
+ State                       | Encoding
+-----------------------------------------
+ no_mesure                   | 000
+ beg_mesure                  | 001
+ during_mesure_before_etat_0 | 010
+ during_mesure_after_etat_0  | 100
+ end_mesure_before_etat_0    | 011
+ end_mesure_after_etat_0     | 101
+-----------------------------------------
+Loading device for application Rf_Device from file '3s100e.nph' in environment C:\PROGRAMS\Xilinx92i.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 19
+ 18-bit up counter                                     : 1
+ 31-bit up counter                                     : 12
+ 31-bit updown counter                                 : 6
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+# Comparators                                          : 24
+ 31-bit comparator greater                             : 6
+ 31-bit comparator less                                : 6
+ 31-bit comparator lessequal                           : 12
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_62> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_63> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_64> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_65> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_67> of unit <Diviseur> are equivalent, second instance is removed
+
+Optimizing unit <EndProduct> ...
+
+Optimizing unit <ChoixNote> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block EndProduct, actual ratio is 42.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 492
+ Flip-Flops                                            : 492
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : EndProduct.ngr
+Top Level Output File Name         : EndProduct
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 1728
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 235
+#      LUT2                        : 39
+#      LUT2_L                      : 1
+#      LUT3                        : 250
+#      LUT3_L                      : 1
+#      LUT4                        : 179
+#      LUT4_D                      : 4
+#      LUT4_L                      : 4
+#      MUXCY                       : 575
+#      MUXF5                       : 10
+#      VCC                         : 1
+#      XORCY                       : 413
+# FlipFlops/Latches                : 492
+#      FD                          : 24
+#      FDE                         : 33
+#      FDR                         : 199
+#      FDRE                        : 207
+#      FDRS                        : 6
+#      FDS                         : 4
+#      FDSE                        : 19
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                     379  out of    960    39%  
+ Number of Slice Flip Flops:           492  out of   1920    25%  
+ Number of 4 input LUTs:               728  out of   1920    37%  
+ Number of IOs:                         13
+ Number of bonded IOBs:                 13  out of     83    15%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 492   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.773ns (Maximum Frequency: 173.226MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 7.265ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 5.773ns (frequency: 173.226MHz)
+  Total number of paths / destination ports: 26079 / 1178
+-------------------------------------------------------------------------
+Delay:               5.773ns (Levels of Logic = 10)
+  Source:            XLXI_61/compteur_4 (FF)
+  Destination:       XLXI_61/compteur_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: XLXI_61/compteur_4 to XLXI_61/compteur_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.514   0.603  XLXI_61/compteur_4 (XLXI_61/compteur_4)
+     LUT3:I0->O            1   0.612   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_lut<1> (N51)
+     MUXCY:S->O            1   0.404   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<1> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<2> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<3> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<4> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<5> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<6> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<7> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           3   0.399   0.451  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<8> (XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<8>)
+     INV:I->O             31   0.612   1.073  XLXI_61/Mcompar_Qavant_cmp_gt0000_cy<8>_inv_INV_0 (XLXI_61/Qavant_cmp_gt0000)
+     FDRE:R                    0.795          XLXI_61/compteur_0
+    ----------------------------------------
+    Total                      5.773ns (3.646ns logic, 2.127ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            FreqVar (PAD)
+  Destination:       XLXI_61/Q (FF)
+  Destination Clock: Clk rising
+
+  Data Path: FreqVar to XLXI_61/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  FreqVar_IBUF (FreqVar_IBUF)
+     FDE:D                     0.268          XLXI_61/Q
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 169 / 11
+-------------------------------------------------------------------------
+Offset:              7.265ns (Levels of Logic = 4)
+  Source:            XLXI_20/Comptage_16 (FF)
+  Destination:       CATHODES<6> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: XLXI_20/Comptage_16 to CATHODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.514   0.969  XLXI_20/Comptage_16 (XLXI_20/Comptage_16)
+     LUT3:I0->O            1   0.612   0.000  XLXI_20/Mmux_Adressage_41 (N58)
+     MUXF5:I0->O           7   0.278   0.754  XLXI_20/Mmux_Adressage_2_f5_0 (XLXI_20/Adressage<1>)
+     LUT4:I0->O            1   0.612   0.357  XLXI_20/Mrom_Cathodes_rom000031 (XLXI_20/Mrom_Cathodes_rom00002)
+     OBUF:I->O                 3.169          CATHODES_2_OBUF (CATHODES<2>)
+    ----------------------------------------
+    Total                      7.265ns (5.185ns logic, 2.080ns route)
+                                       (71.4% logic, 28.6% route)
+
+=========================================================================
+CPU : 5.11 / 5.19 s | Elapsed : 5.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 247780 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

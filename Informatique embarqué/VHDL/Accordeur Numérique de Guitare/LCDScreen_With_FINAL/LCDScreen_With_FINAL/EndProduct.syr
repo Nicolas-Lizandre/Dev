@@ -1,0 +1,985 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: EndProduct.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "EndProduct.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "EndProduct"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : EndProduct
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : EndProduct.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/ChoixNote.vhd" in Library work.
+Architecture behavioral of Entity choixnote is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Sequenceur.vhd" in Library work.
+Architecture behavioral of Entity sequenceur is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_082Hz.vhd" in Library work.
+Architecture behavioral of Entity div_082hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_110Hz.vhd" in Library work.
+Architecture behavioral of Entity div_110hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_146Hz.vhd" in Library work.
+Architecture behavioral of Entity div_146hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_196Hz.vhd" in Library work.
+Architecture behavioral of Entity div_196hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_246Hz.vhd" in Library work.
+Architecture behavioral of Entity div_246hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_329Hz.vhd" in Library work.
+Architecture behavioral of Entity div_329hz is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/CompteurReversible.vhd" in Library work.
+Architecture behavioral of Entity compteurreversible is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Bus_Signe_AVEC_Pourcent.vhd" in Library work.
+Architecture behavioral of Entity bus_signe_avec_pourcent is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/RegistreParallele.vhd" in Library work.
+Architecture behavioral of Entity registreparallele is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Diviseur.vhd" in Library work.
+Architecture behavioral of Entity diviseur is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Data_Sequencer.vhd" in Library work.
+Architecture rtl of Entity data_sequenceur is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Data_Conversion_complete.vhd" in Library work.
+Architecture rtl of Entity data_converter is up to date.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Sending_data_corr.vhd" in Library work.
+Entity <sending_data> compiled.
+Entity <sending_data> (Architecture <rtl>) compiled.
+Compiling vhdl file "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/EndProduct.vhf" in Library work.
+Architecture behavioral of Entity endproduct is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <EndProduct> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ChoixNote> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sequenceur> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_082Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_110Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_146Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_196Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_246Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_329Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CompteurReversible> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Bus_Signe_AVEC_Pourcent> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegistreParallele> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Diviseur> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Data_Sequenceur> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <Data_Converter> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <Sending_data> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <EndProduct> in library <work> (Architecture <behavioral>).
+Entity <EndProduct> analyzed. Unit <EndProduct> generated.
+
+Analyzing Entity <ChoixNote> in library <work> (Architecture <behavioral>).
+Entity <ChoixNote> analyzed. Unit <ChoixNote> generated.
+
+Analyzing Entity <Sequenceur> in library <work> (Architecture <behavioral>).
+Entity <Sequenceur> analyzed. Unit <Sequenceur> generated.
+
+Analyzing Entity <Div_082Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_082Hz> analyzed. Unit <Div_082Hz> generated.
+
+Analyzing Entity <Div_110Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_110Hz> analyzed. Unit <Div_110Hz> generated.
+
+Analyzing Entity <Div_146Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_146Hz> analyzed. Unit <Div_146Hz> generated.
+
+Analyzing Entity <Div_196Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_196Hz> analyzed. Unit <Div_196Hz> generated.
+
+Analyzing Entity <Div_246Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_246Hz> analyzed. Unit <Div_246Hz> generated.
+
+Analyzing Entity <Div_329Hz> in library <work> (Architecture <behavioral>).
+Entity <Div_329Hz> analyzed. Unit <Div_329Hz> generated.
+
+Analyzing Entity <CompteurReversible> in library <work> (Architecture <behavioral>).
+Entity <CompteurReversible> analyzed. Unit <CompteurReversible> generated.
+
+Analyzing Entity <Bus_Signe_AVEC_Pourcent> in library <work> (Architecture <behavioral>).
+Entity <Bus_Signe_AVEC_Pourcent> analyzed. Unit <Bus_Signe_AVEC_Pourcent> generated.
+
+Analyzing Entity <RegistreParallele> in library <work> (Architecture <behavioral>).
+Entity <RegistreParallele> analyzed. Unit <RegistreParallele> generated.
+
+Analyzing Entity <Diviseur> in library <work> (Architecture <behavioral>).
+Entity <Diviseur> analyzed. Unit <Diviseur> generated.
+
+Analyzing Entity <Data_Sequenceur> in library <work> (Architecture <rtl>).
+Entity <Data_Sequenceur> analyzed. Unit <Data_Sequenceur> generated.
+
+Analyzing Entity <Data_Converter> in library <work> (Architecture <rtl>).
+INFO:Xst:2679 - Register <data_to_be_send<0>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<1>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<2>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<3>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<4>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<5>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<6>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<7>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<8>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<9>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<10>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<11>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<12>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<13>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<14>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<15>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<16>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<17>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<18>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<19>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<20>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<21>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<22>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<23>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<24>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<25>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<26>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<27>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<28>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<29>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<30>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data_to_be_send<31>> in unit <Data_Converter> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+Entity <Data_Converter> analyzed. Unit <Data_Converter> generated.
+
+Analyzing Entity <Sending_data> in library <work> (Architecture <rtl>).
+Entity <Sending_data> analyzed. Unit <Sending_data> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ChoixNote>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/ChoixNote.vhd".
+    Found 4-bit register for signal <Pourcentage>.
+    Found 3-bit register for signal <Note>.
+    Found 1-bit register for signal <Bad_ftment>.
+    Found 1-bit register for signal <Signe>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <ChoixNote> synthesized.
+
+
+Synthesizing Unit <Sequenceur>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Sequenceur.vhd".
+    Found finite state machine <FSM_0> for signal <CURRENT_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Power Up State     | no_mesure                                      |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Sequenceur> synthesized.
+
+
+Synthesizing Unit <Div_082Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_082Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_082Hz> synthesized.
+
+
+Synthesizing Unit <Div_110Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_110Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_110Hz> synthesized.
+
+
+Synthesizing Unit <Div_146Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_146Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_146Hz> synthesized.
+
+
+Synthesizing Unit <Div_196Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_196Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_196Hz> synthesized.
+
+
+Synthesizing Unit <Div_246Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_246Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_246Hz> synthesized.
+
+
+Synthesizing Unit <Div_329Hz>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Div_329Hz.vhd".
+    Found 1-bit register for signal <FreqRef>.
+    Found 31-bit up counter for signal <compteur_reel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_329Hz> synthesized.
+
+
+Synthesizing Unit <CompteurReversible>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/CompteurReversible.vhd".
+    Found 1-bit register for signal <Etat_0>.
+    Found 31-bit updown counter for signal <compteur>.
+    Found 31-bit comparator lessequal for signal <Pourcent_to_output$cmp_le0000> created at line 75.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CompteurReversible> synthesized.
+
+
+Synthesizing Unit <Bus_Signe_AVEC_Pourcent>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Bus_Signe_AVEC_Pourcent.vhd".
+Unit <Bus_Signe_AVEC_Pourcent> synthesized.
+
+
+Synthesizing Unit <RegistreParallele>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/RegistreParallele.vhd".
+    Found 4-bit register for signal <Pourcent_in_use>.
+    Found 1-bit register for signal <Sign_output>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <RegistreParallele> synthesized.
+
+
+Synthesizing Unit <Diviseur>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Diviseur.vhd".
+    Found 31-bit up counter for signal <compteur>.
+    Found 31-bit comparator lessequal for signal <compteur$cmp_le0000> created at line 52.
+    Found 1-bit xor2 for signal <compteur$xor0000> created at line 53.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Qavant>.
+    Found 31-bit comparator greater for signal <Qavant$cmp_gt0000> created at line 52.
+    Found 31-bit comparator less for signal <TVar100$cmp_lt0000> created at line 62.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <Diviseur> synthesized.
+
+
+Synthesizing Unit <Data_Sequenceur>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Data_Sequencer.vhd".
+    Found 16x8-bit ROM for signal <phase_instr$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <phase_instr$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <phase_instr$rom0002> created at line 149.
+    Found 16x8-bit ROM for signal <init_index$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <init_index$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <init_index$rom0002> created at line 149.
+    Found 16x8-bit ROM for signal <wait_between_trip$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <wait_between_trip$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <wait_between_trip$rom0002> created at line 149.
+    Found 16x8-bit ROM for signal <ms200_cnt$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <ms200_cnt$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <state$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <state$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <startup_cnt$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <startup_cnt$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <startup_cnt$rom0002> created at line 149.
+    Found 16x8-bit ROM for signal <ms4_cnt$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <ms4_cnt$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <instr_in$rom0000> created at line 149.
+    Found 16x8-bit ROM for signal <instr_in$rom0001> created at line 149.
+    Found 16x8-bit ROM for signal <instr_in$rom0002> created at line 149.
+    Found 16x8-bit ROM for signal <instr_in$rom0003> created at line 196.
+    Found finite state machine <FSM_1> for signal <phase_instr>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 42                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | mode_reset                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 8-bit register for signal <instr_in>.
+    Found 1-bit register for signal <reset_request_to_top>.
+    Found 1-bit register for signal <activate_wait_between_trip>.
+    Found 31-bit register for signal <cnt_40us>.
+    Found 31-bit adder for signal <cnt_40us$addsub0000> created at line 142.
+    Found 31-bit register for signal <idle_count>.
+    Found 31-bit adder for signal <idle_count$addsub0000> created at line 223.
+    Found 4-bit register for signal <init_index>.
+    Found 4-bit adder for signal <init_index$share0000> created at line 149.
+    Found 8-bit register for signal <instr_prev>.
+    Found 31-bit register for signal <ms200_cnt>.
+    Found 31-bit adder for signal <ms200_cnt$addsub0000> created at line 155.
+    Found 31-bit register for signal <ms4_cnt>.
+    Found 31-bit adder for signal <ms4_cnt$addsub0000> created at line 165.
+    Found 31-bit register for signal <startup_cnt>.
+    Found 31-bit adder for signal <startup_cnt$addsub0000> created at line 175.
+    Found 8-bit comparator equal for signal <state$cmp_eq0003> created at line 222.
+    Found 31-bit comparator greatequal for signal <state$cmp_ge0000> created at line 224.
+    Found 8-bit comparator not equal for signal <state$cmp_ne0000> created at line 241.
+    Found 1-bit register for signal <wait_between_trip>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred  22 ROM(s).
+	inferred 178 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <Data_Sequenceur> synthesized.
+
+
+Synthesizing Unit <Data_Converter>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Data_Conversion_complete.vhd".
+WARNING:Xst:1780 - Signal <conv_nb_instructions> is never used or assigned.
+    Found finite state machine <FSM_3> for signal <phase_instr>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 101                                            |
+    | Inputs             | 21                                             |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 16                                             |
+    | Transitions        | 33                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 16                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | waiting_new_instructions                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 8-bit register for signal <instr_tasks>.
+    Found 1-bit register for signal <activate_wait_between_trip>.
+    Found 8-bit register for signal <cnt_delay>.
+    Found 8-bit adder for signal <cnt_delay$addsub0000> created at line 224.
+    Found 5-bit register for signal <read_index>.
+    Found 5-bit comparator lessequal for signal <read_index$cmp_le0000> created at line 231.
+    Found 5-bit adder for signal <read_index$share0000> created at line 231.
+    Found 1-bit register for signal <retour_deb_ligne_2>.
+    Found 1-bit register for signal <wait_between_trip>.
+    Found 24-bit up counter for signal <wait_counter>.
+    Found 5-bit register for signal <write_index>.
+    Found 5-bit adder for signal <write_index$addsub0000>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <Data_Converter> synthesized.
+
+
+Synthesizing Unit <Sending_data>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/Sending_data_corr.vhd".
+WARNING:Xst:646 - Signal <scl_prev_delay<9>> is assigned but never used.
+    Found finite state machine <FSM_5> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | wait_instr                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 1-bit register for signal <all_data_sent>.
+    Found 1-bit tristate buffer for signal <sda>.
+    Found 1-bit tristate buffer for signal <scl>.
+    Found 3-bit register for signal <bit_cnt>.
+    Found 3-bit subtractor for signal <bit_cnt$addsub0000> created at line 198.
+    Found 9-bit up counter for signal <div_cnt>.
+    Found 56-bit register for signal <list>.
+    Found 1-bit register for signal <lock>.
+    Found 8-bit down counter for signal <lock_cnt>.
+    Found 1-bit register for signal <scl_fall>.
+    Found 10-bit register for signal <scl_prev_delay>.
+    Found 1-bit register for signal <scl_reg>.
+    Found 1-bit register for signal <scl_rise>.
+    Found 1-bit register for signal <sda_out>.
+    Found 1-bit register for signal <wait_for_middle_of_SCL>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred  76 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Tristate(s).
+Unit <Sending_data> synthesized.
+
+
+Synthesizing Unit <EndProduct>.
+    Related source file is "D:/Utilisateurs/lizafade50/Exemples/LCDScreen_With_FINAL/EndProduct.vhf".
+Unit <EndProduct> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 22
+ 16x8-bit ROM                                          : 22
+# Adders/Subtractors                                   : 9
+ 3-bit subtractor                                      : 1
+ 31-bit adder                                          : 5
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 21
+ 24-bit up counter                                     : 1
+ 31-bit up counter                                     : 12
+ 31-bit updown counter                                 : 6
+ 8-bit down counter                                    : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 73
+ 1-bit register                                        : 45
+ 10-bit register                                       : 1
+ 3-bit register                                        : 2
+ 31-bit register                                       : 5
+ 4-bit register                                        : 8
+ 5-bit register                                        : 1
+ 8-bit register                                        : 11
+# Comparators                                          : 28
+ 31-bit comparator greatequal                          : 1
+ 31-bit comparator greater                             : 6
+ 31-bit comparator less                                : 6
+ 31-bit comparator lessequal                           : 12
+ 5-bit comparator lessequal                            : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_5> for best encoding.
+Optimizing FSM <XLXI_76/state> on signal <state[1:3]> with sequential encoding.
+------------------------------
+ State            | Encoding
+------------------------------
+ wait_instr       | 000
+ start            | 001
+ instr            | 010
+ rw               | 011
+ ack              | 100
+ stop_or_continue | 101
+------------------------------
+Analyzing FSM <FSM_4> for best encoding.
+Optimizing FSM <XLXI_73/state> on signal <state[1:16]> with one-hot encoding.
+----------------------------------------------
+ State                    | Encoding
+----------------------------------------------
+ frequencytoohigh         | 0000000000000010
+ corde_1_pos              | 0000000000001000
+ corde_1_neg              | 0000000000010000
+ corde_2_pos              | 0000000000100000
+ corde_2_neg              | 0000000001000000
+ corde_3_pos              | 0000000010000000
+ corde_3_neg              | 0000000100000000
+ corde_4_pos              | 0000001000000000
+ corde_4_neg              | 0000010000000000
+ corde_5_pos              | 0000100000000000
+ corde_5_neg              | 0001000000000000
+ corde_6_pos              | 0010000000000000
+ corde_6_neg              | 0100000000000000
+ frequencytoolow          | 0000000000000100
+ waiting_new_instructions | 0000000000000001
+ instruction_transmission | 1000000000000000
+----------------------------------------------
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <XLXI_73/phase_instr> on signal <phase_instr[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <XLXI_68/state> on signal <state[1:2]> with sequential encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ mode_reset   | 00
+ mode_startup | 01
+ mode_working | 10
+ mode_idle    | 11
+--------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_68/phase_instr> on signal <phase_instr[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_21/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_22/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_23/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_24/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_25/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+Optimizing FSM <XLXI_26/CURRENT_STATE> on signal <CURRENT_STATE[1:3]> with sequential encoding.
+-----------------------------------------
+ State                       | Encoding
+-----------------------------------------
+ no_mesure                   | 000
+ beg_mesure                  | 001
+ during_mesure_before_etat_0 | 010
+ during_mesure_after_etat_0  | 100
+ end_mesure_before_etat_0    | 011
+ end_mesure_after_etat_0     | 101
+-----------------------------------------
+Loading device for application Rf_Device from file '3s100e.nph' in environment C:\PROGRAMS\Xilinx92i.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_phase_instr_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_phase_instr_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_phase_instr_rom0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_init_index_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_init_index_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_init_index_rom0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_wait_between_trip_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_wait_between_trip_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_wait_between_trip_rom0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_ms200_cnt_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_ms200_cnt_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_state_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_state_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_startup_cnt_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_startup_cnt_rom0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_startup_cnt_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_ms4_cnt_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_instr_in_rom0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_ms4_cnt_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_instr_in_rom0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_instr_in_rom0002> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+INFO:Xst:2506 - Unit <Data_Sequenceur> : In order to maximize performance and save block RAM resources, the small ROM <Mrom_instr_in_rom0003> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+WARNING:Xst:2677 - Node <scl_prev_delay_8> of sequential type is unconnected in block <Sending_data>.
+WARNING:Xst:2677 - Node <scl_prev_delay_9> of sequential type is unconnected in block <Sending_data>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 6
+# ROMs                                                 : 22
+ 16x8-bit ROM                                          : 22
+# Adders/Subtractors                                   : 9
+ 3-bit subtractor                                      : 1
+ 31-bit adder                                          : 5
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 21
+ 24-bit up counter                                     : 1
+ 31-bit up counter                                     : 12
+ 31-bit updown counter                                 : 6
+ 8-bit down counter                                    : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 382
+ Flip-Flops                                            : 382
+# Comparators                                          : 28
+ 31-bit comparator greatequal                          : 1
+ 31-bit comparator greater                             : 6
+ 31-bit comparator less                                : 6
+ 31-bit comparator lessequal                           : 12
+ 5-bit comparator lessequal                            : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_62> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_63> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_64> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_65> of unit <Diviseur> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <EndProduct>: instances <XLXI_61>, <XLXI_67> of unit <Diviseur> are equivalent, second instance is removed
+INFO:Xst:2146 - In block <Data_Sequenceur>, ROM <Mrom_phase_instr_rom0000> <Mrom_phase_instr_rom0001> <Mrom_phase_instr_rom0002> <Mrom_init_index_rom0000> <Mrom_init_index_rom0001> <Mrom_init_index_rom0002> <Mrom_wait_between_trip_rom0000> <Mrom_wait_between_trip_rom0001> <Mrom_wait_between_trip_rom0002> <Mrom_ms200_cnt_rom0000> <Mrom_ms200_cnt_rom0001> <Mrom_state_rom0000> <Mrom_state_rom0001> <Mrom_startup_cnt_rom0000> <Mrom_startup_cnt_rom0001> <Mrom_startup_cnt_rom0002> <Mrom_ms4_cnt_rom0000> <Mrom_ms4_cnt_rom0001> <Mrom_instr_in_rom0000> <Mrom_instr_in_rom0001> <Mrom_instr_in_rom0002> <Mrom_instr_in_rom0003> are equivalent, XST will keep only <Mrom_phase_instr_rom0000>.
+
+Optimizing unit <EndProduct> ...
+
+Optimizing unit <ChoixNote> ...
+
+Optimizing unit <Data_Sequenceur> ...
+
+Optimizing unit <Data_Converter> ...
+WARNING:Xst:1710 - FF/Latch  <instr_tasks_0> (without init value) has a constant value of 0 in block <Data_Converter>.
+WARNING:Xst:1710 - FF/Latch  <instr_tasks_0> (without init value) has a constant value of 0 in block <Data_Converter>.
+WARNING:Xst:1293 - FF/Latch  <XLXI_68/instr_prev_0> has a constant value of 0 in block <EndProduct>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block EndProduct, actual ratio is 83.
+FlipFlop XLXI_68/init_index_0 has been replicated 1 time(s)
+FlipFlop XLXI_68/init_index_1 has been replicated 1 time(s)
+FlipFlop XLXI_68/init_index_2 has been replicated 1 time(s)
+FlipFlop XLXI_68/init_index_3 has been replicated 1 time(s)
+FlipFlop XLXI_73/state_FFd16 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <EndProduct> :
+INFO:Xst:741 - HDL ADVISOR - A 5-bit shift register was found for signal <XLXI_76/scl_prev_delay_4> and currently occupies 5 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <EndProduct> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 820
+ Flip-Flops                                            : 820
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : EndProduct.ngr
+Top Level Output File Name         : EndProduct
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 2871
+#      GND                         : 1
+#      INV                         : 32
+#      LUT1                        : 395
+#      LUT2                        : 82
+#      LUT2_D                      : 7
+#      LUT2_L                      : 3
+#      LUT3                        : 348
+#      LUT3_D                      : 6
+#      LUT3_L                      : 7
+#      LUT4                        : 518
+#      LUT4_D                      : 43
+#      LUT4_L                      : 31
+#      MUXCY                       : 795
+#      MUXF5                       : 17
+#      VCC                         : 1
+#      XORCY                       : 585
+# FlipFlops/Latches                : 820
+#      FD                          : 191
+#      FDE                         : 97
+#      FDR                         : 220
+#      FDRE                        : 240
+#      FDRS                        : 6
+#      FDS                         : 46
+#      FDSE                        : 20
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 2
+#      OBUF                        : 1
+#      OBUFT                       : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                     774  out of    960    80%  
+ Number of Slice Flip Flops:           820  out of   1920    42%  
+ Number of 4 input LUTs:              1472  out of   1920    76%  
+ Number of IOs:                          6
+ Number of bonded IOBs:                  6  out of     83     7%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 820   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.126ns (Maximum Frequency: 140.329MHz)
+   Minimum input arrival time before clock: 5.574ns
+   Maximum output required time after clock: 4.285ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 7.126ns (frequency: 140.329MHz)
+  Total number of paths / destination ports: 47798 / 1699
+-------------------------------------------------------------------------
+Delay:               7.126ns (Levels of Logic = 10)
+  Source:            XLXI_73/wait_counter_6 (FF)
+  Destination:       XLXI_73/state_FFd4 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: XLXI_73/wait_counter_6 to XLXI_73/state_FFd4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.514   0.532  XLXI_73/wait_counter_6 (XLXI_73/wait_counter_6)
+     LUT4:I0->O            1   0.612   0.000  XLXI_73/state_cmp_eq0000_wg_lut<0> (N1281)
+     MUXCY:S->O            1   0.404   0.000  XLXI_73/state_cmp_eq0000_wg_cy<0> (XLXI_73/state_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_73/state_cmp_eq0000_wg_cy<1> (XLXI_73/state_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_73/state_cmp_eq0000_wg_cy<2> (XLXI_73/state_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_73/state_cmp_eq0000_wg_cy<3> (XLXI_73/state_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_73/state_cmp_eq0000_wg_cy<4> (XLXI_73/state_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           8   0.399   0.712  XLXI_73/state_cmp_eq0000_wg_cy<5> (XLXI_73/state_cmp_eq0000)
+     LUT2:I1->O           26   0.612   1.074  XLXI_73/state_FFd14-In21 (XLXI_73/wait_counter_and0000)
+     LUT4:I3->O            4   0.612   0.568  XLXI_73/state_FFd4-In11 (XLXI_73/N18)
+     LUT2:I1->O            1   0.612   0.000  XLXI_73/state_FFd4-In21 (N2366)
+     FDR:D                     0.268          XLXI_73/state_FFd4
+    ----------------------------------------
+    Total                      7.126ns (4.240ns logic, 2.887ns route)
+                                       (59.5% logic, 40.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              5.574ns (Levels of Logic = 5)
+  Source:            reset (PAD)
+  Destination:       XLXI_68/instr_in_7 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: reset to XLXI_68/instr_in_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  reset_IBUF (reset_IBUF)
+     LUT4:I0->O            1   0.612   0.387  XLXI_68/instr_in_mux0001<0>11_SW0 (N1530)
+     LUT4_D:I2->LO         1   0.612   0.103  XLXI_68/instr_in_mux0001<0>11 (N2589)
+     LUT4:I3->O            6   0.612   0.572  XLXI_68/instr_in_mux0001<0>12 (XLXI_68/N31)
+     LUT4:I3->O            1   0.612   0.000  XLXI_68/instr_in_mux0001<0>701 (N2353)
+     FDS:D                     0.268          XLXI_68/instr_in_7
+    ----------------------------------------
+    Total                      5.574ns (3.822ns logic, 1.752ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.285ns (Levels of Logic = 1)
+  Source:            XLXI_76/scl_reg (FF)
+  Destination:       scl (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: XLXI_76/scl_reg to scl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             7   0.514   0.602  XLXI_76/scl_reg (XLXI_76/scl_reg)
+     OBUFT:T->O                3.169          scl_OBUFT (scl)
+    ----------------------------------------
+    Total                      4.285ns (3.683ns logic, 0.602ns route)
+                                       (86.0% logic, 14.0% route)
+
+=========================================================================
+CPU : 9.19 / 9.26 s | Elapsed : 9.00 / 9.00 s
+ 
+--> 
+
+Total memory usage is 243956 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
+Number of infos    :   57 (   0 filtered)
+

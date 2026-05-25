@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=instr_in[7:0]=
+[Outputs]
+all_data_sent
+list_data_full
+[BiDir]
+scl
+sda

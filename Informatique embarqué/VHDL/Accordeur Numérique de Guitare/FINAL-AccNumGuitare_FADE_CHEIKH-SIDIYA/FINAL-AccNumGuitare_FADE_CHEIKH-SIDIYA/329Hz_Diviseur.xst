@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn 329Hz_Diviseur.prj
+-ifmt mixed

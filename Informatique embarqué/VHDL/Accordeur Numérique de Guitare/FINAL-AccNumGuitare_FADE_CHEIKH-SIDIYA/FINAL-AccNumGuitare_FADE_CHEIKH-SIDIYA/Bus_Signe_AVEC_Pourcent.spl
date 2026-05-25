@@ -1,0 +1,6 @@
+[Inputs]
+Signe
+=Pourcent[3:0]=
+[Outputs]
+=Signe_AVEC_Pourcent[4:0]=
+[BiDir]

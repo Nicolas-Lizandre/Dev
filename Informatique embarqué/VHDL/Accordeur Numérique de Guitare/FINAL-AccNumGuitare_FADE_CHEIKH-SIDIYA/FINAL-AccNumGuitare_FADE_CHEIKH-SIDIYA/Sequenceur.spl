@@ -1,0 +1,10 @@
+[Inputs]
+Etat_0
+Mesure
+Clk
+[Outputs]
+Init_Compt
+Charg_Reg
+Valid_Compt
+SensCroiss
+[BiDir]

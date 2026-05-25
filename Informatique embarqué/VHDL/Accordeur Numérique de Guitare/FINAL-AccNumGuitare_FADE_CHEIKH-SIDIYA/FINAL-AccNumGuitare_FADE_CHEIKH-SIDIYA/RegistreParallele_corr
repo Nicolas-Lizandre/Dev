@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2.04i
+--  \   \         Application : 
+--  /   /         Filename : xil_13388_15
+-- /___/   /\     Timestamp : 12/02/2025 19:35:07
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: 
+--
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity RegistreParallele is
+   port ( Charg_Reg             : in    std_logic; 
+          FreqRef               : in    std_logic; 
+          LED_bad_ftment_cdt1   : in    std_logic; 
+          Pourcent_to_output    : in    std_logic_vector (3 downto 0); 
+          SensCroiss            : in    std_logic; 
+          LED_bad_ftment_output : out   std_logic; 
+          Pourcent_in_use       : out   std_logic_vector (3 downto 0); 
+          Sign_output           : out   std_logic);
+end RegistreParallele;
+
+architecture BEHAVIORAL of RegistreParallele is
+begin
+end BEHAVIORAL;
+
+

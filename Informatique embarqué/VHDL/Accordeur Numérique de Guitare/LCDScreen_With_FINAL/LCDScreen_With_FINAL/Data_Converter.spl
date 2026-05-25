@@ -1,0 +1,11 @@
+[Inputs]
+clk
+SensCroiss
+list_data_full
+reset_request
+all_data_sent
+=note_en_cours[2:0]=
+=Pourcentage[3:0]=
+[Outputs]
+=instr_tasks[7:0]=
+[BiDir]

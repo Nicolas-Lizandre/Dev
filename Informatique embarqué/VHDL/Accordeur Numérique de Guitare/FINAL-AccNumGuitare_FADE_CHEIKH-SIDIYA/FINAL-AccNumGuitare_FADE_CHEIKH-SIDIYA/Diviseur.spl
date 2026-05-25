@@ -1,0 +1,6 @@
+[Inputs]
+FreqVar
+Clk
+[Outputs]
+TVar100
+[BiDir]

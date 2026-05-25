@@ -1,0 +1,46 @@
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+map -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o EndProduct_map.ncd EndProduct.ngd EndProduct.pcf
+par -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -w -intstyle ise -ol std -t 1 EndProduct_map.ncd EndProduct.ncd EndProduct.pcf
+trce -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -e 3 -s 5 -xml EndProduct EndProduct.ncd -o EndProduct.twr EndProduct.pcf -ucf EndProduct.ucf
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+map -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o EndProduct_map.ncd EndProduct.ngd EndProduct.pcf
+par -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -w -intstyle ise -ol std -t 1 EndProduct_map.ncd EndProduct.ncd EndProduct.pcf
+trce -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -e 3 -s 5 -xml EndProduct EndProduct.ncd -o EndProduct.twr EndProduct.pcf -ucf EndProduct.ucf
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+map -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o EndProduct_map.ncd EndProduct.ngd EndProduct.pcf
+par -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -w -intstyle ise -ol std -t 1 EndProduct_map.ncd EndProduct.ncd EndProduct.pcf
+trce -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -e 3 -s 5 -xml EndProduct EndProduct.ncd -o EndProduct.twr EndProduct.pcf -ucf EndProduct.ucf
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/EndProduct.sch" EndProduct.vhf
+xst -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -ifn EndProduct.xst -ofn EndProduct.syr
+ngdbuild -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -dd _ngo -nt timestamp -uc "EndProduct.ucf" -p xc3s100e-cp132-5 "EndProduct.ngc" EndProduct.ngd
+map -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr b -k 4 -c 100 -o EndProduct_map.ncd EndProduct.ngd EndProduct.pcf
+par -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -w -intstyle ise -ol std -t 1 EndProduct_map.ncd EndProduct.ncd EndProduct.pcf
+trce -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -e 3 -s 5 -xml EndProduct EndProduct.ncd -o EndProduct.twr EndProduct.pcf -ucf EndProduct.ucf
+bitgen -ise "D:/Utilisateurs/lizafade50/Exemples/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA/FINAL-AccNumGuitare_FADE_CHEIKH-SIDIYA.ise" -intstyle ise -f EndProduct.ut EndProduct.ncd

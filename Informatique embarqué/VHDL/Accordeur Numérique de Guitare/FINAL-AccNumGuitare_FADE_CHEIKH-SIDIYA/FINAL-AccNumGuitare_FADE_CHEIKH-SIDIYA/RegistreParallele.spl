@@ -1,0 +1,9 @@
+[Inputs]
+Charg_Reg
+SensCroiss
+Clk
+=Pourcent_to_output[3:0]=
+[Outputs]
+Sign_output
+=Pourcent_in_use[3:0]=
+[BiDir]

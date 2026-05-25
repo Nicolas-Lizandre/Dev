@@ -1,9 +1,0 @@
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/app.elf.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/create-objdump.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/niosv-stack-report.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/create-hex.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/edit_cache.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/CMakeFiles/rebuild_cache.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/bsp/CMakeFiles/hal2_bsp.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/bsp/CMakeFiles/edit_cache.dir
-C:/Users/nicol/OneDrive/Bureau/ENSEA/Informatique/TP_Advanced_FPGA/soft/app/build/Default/bsp/CMakeFiles/rebuild_cache.dir

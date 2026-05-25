@@ -1,0 +1,10 @@
+[Inputs]
+Clk
+Signe
+Bad_ftment
+=Pourcentage[3:0]=
+=Note[2:0]=
+[Outputs]
+=Anodes[3:0]=
+=Cathodes[6:0]=
+[BiDir]
