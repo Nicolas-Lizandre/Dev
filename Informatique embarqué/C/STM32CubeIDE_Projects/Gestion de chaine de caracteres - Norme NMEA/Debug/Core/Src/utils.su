@@ -1,8 +1,0 @@
-../Core/Src/utils.c:22:6:loop	16	static
-../Core/Src/utils.c:28:5:fillBuffer	32	static
-../Core/Src/utils.c:49:5:isGPGGA	32	static
-../Core/Src/utils.c:56:5:extractChecksum	24	static
-../Core/Src/utils.c:62:5:calculateChecksum	24	static
-../Core/Src/utils.c:69:5:checkFrame	24	static
-../Core/Src/utils.c:77:7:getLatitude	40	static
-../Core/Src/utils.c:91:7:getLongitude	40	static

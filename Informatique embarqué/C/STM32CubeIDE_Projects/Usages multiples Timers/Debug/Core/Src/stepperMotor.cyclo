@@ -1,3 +1,0 @@
-../Core/Src/stepperMotor.c:13:6:init_stepper	1
-../Core/Src/stepperMotor.c:32:6:launch_stepper	2
-../Core/Src/stepperMotor.c:48:7:get_speed	3

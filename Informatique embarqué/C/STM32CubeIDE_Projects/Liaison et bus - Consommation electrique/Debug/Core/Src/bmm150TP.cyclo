@@ -1,7 +1,0 @@
-../Core/Src/bmm150TP.c:26:9:initDriverBMM150	2
-../Core/Src/bmm150TP.c:35:9:readOneRegister	1
-../Core/Src/bmm150TP.c:46:6:readManyRegister	1
-../Core/Src/bmm150TP.c:58:6:writeOneRegister	1
-../Core/Src/bmm150TP.c:68:9:checkForBMM150Connection	2
-../Core/Src/bmm150TP.c:80:7:readAngle	2
-../Core/Src/bmm150TP.c:94:10:readYValue	2

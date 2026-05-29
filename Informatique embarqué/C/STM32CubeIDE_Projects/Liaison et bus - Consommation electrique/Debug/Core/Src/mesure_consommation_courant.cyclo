@@ -1,4 +1,0 @@
-../Core/Src/mesure_consommation_courant.c:15:6:setup	2
-../Core/Src/mesure_consommation_courant.c:30:6:loop	1
-../Core/Src/mesure_consommation_courant.c:34:6:HAL_GPIO_EXTI_Callback	3
-../Core/Src/mesure_consommation_courant.c:44:6:HAL_ADC_ConvCpltCallback	2
